@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<head>
+    <style>
+        .txt {
+            color: red;
+        }
+    </style>
+</head>
+
+<h1>Index</h1>
+@*@foreach (var item in ViewBag.customers)
+    {
+        @Html.Label("CustName","Customer Name")
+        @Html.TextBox("CustName",(((Customer)item).Name),htmlAttributes:new { @class= "txt"})
+        <br />
+        @Html.Label("Customer Email")
+        @(((Customer)item).EMail)
+        <br />
+        <hr />
+    }
+    <hr />
+    @Html.DropDownList("custEmailID", (IEnumerable<SelectListItem>)ViewBag.Emails, "CustomerEmails", new {@class="txt"})*@
+<form>
+    @foreach (var item in ViewBag.customers)
+    {
+        <label>Customer Name</label>
+        <input class="txt" value=@(((Customer)item).Name) />
+        <button asp-action="Details" asp-route-id=@(((Customer)item).Id)>Go to details</button>
+        @Html.ActionLink("Edit", "Edit",new { id=(((Customer)item).Id)})
+        <br />
+    }
+</form>
+@await Component.InvokeAsync("MySample")

@@ -1,0 +1,143 @@
+Introduction to MVC
+   Static Pages - HTML
+   Responsive Page -> HTML+ Scripting(JavaScript)
+   Responsive Page -> HTML + ServerSide Script(ASP, JSP, ASP.NET, Spring, ASP.NET CORE)
+
+
+Page+Code behind+
+
+Code <-> Design
+
+MVC
+Model -> Deals with data
+View -> UI
+Controller -> Handles the whole application
+
+
+http://baseurl/<Controllername>/<ActionMethod>
+
+
+Creating an application for a pizza store
+List the products
+- Allow selection - muliple/single 
+- addons - how many? and types
+- toppings(how many?)
+- Size selction -if varies howmany?
+- Discounts? how many plans? 
+- payment methods? only COD/online payment? Gateway Integration?
+- should the Tips be included?
+- Pictures of products?
+- track order?
+- user logins?
+- cancellation - time for charge
+
+
+MVC -> Do we include API? Google API for map?
+Cloud deployment?
+Database?
+Pictures?
+Unit Testing method and framework - nUnit/ MSUnint??
+
+Customer
+Pizza
+Billing
+Toppings
+Addons
+Tracking
+Discounts
+
+Customer able to login
+Customer able to order
+Customer able to view Pizzas
+Customer able to check orders
+Customer able to cancel Order
+
+
+Store able add stock
+Store able to change pics
+Store able to change price
+Store able to provide discount
+
+Sequence diagram
+
+
+ERD - Entity Relation Dig
+EF Core - ORM
+Tables - RDBMS / 
+Rules
+Stored Procedures
+Functions
+Database Security
+Certificate for Stored procedures
+
+Security
+  Forms authentication
+  Identity
+  OAuth
+  Token Based
+  OWIN
+
+
+Create the Pizza store home page with pizza listing
+Pizza 
+  Id
+  Name - Single
+  Toppings - collection
+  Crust - Single
+  Sauce - Collection
+  Type of Cheese - Single
+  Price - Single
+  Size - Single
+
+Toppings
+  Id
+  Name
+  Price
+  Description
+
+Crust
+  Id
+  Name
+  Price
+  Description
+
+Size
+  Id
+  Description
+  Name
+
+
+Get the pizzas
+Buy Pizza
+
+Pizza
+  Get - Index - Listing of pizzas
+  AddToCart - Add the pizza to shopping cart
+  
+
+Cart
+ Get - Gets the item(s) in the cart
+ Buy - Checkouts the user and shows the fina amount to be paid
+
+DI
+
+Testing
+Updation
+
+
+http://localhost:15674/Home/AddName?name=Jim
+
+
+Singleton - over all only one object
+Scoped - one object for every request
+Tansient - one object for every call
+
+
+
+  
+
+
+
+
+
+

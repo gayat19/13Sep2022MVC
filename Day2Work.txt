@@ -1,0 +1,48 @@
+Controller
+View
+Model
+
+http://baseurl/<controllername>/<actionmethodname>/<parameter>
+http://localhost:15674/Customer/Index
+http://localhost:15674/Customer/Login
+
+GET/POST 
+
+Controller
+
+User requests for teh pizza page
+View the pizzas -> GET
+User gets the Pizza page
+
+User requests the Login page -> GET Request
+USer enters data in the login page and send the data - > POST
+Login -> POST
+Register -> POST
+Add item to cart -> GET/POST
+
+
+Login
+  How to create methods for Login -> GET and POST
+  How to redirect to a different page
+  How to pass data from one to another method
+
+ViewData 				 ViewBag
+Dic          			dynamic
+req casting 			no casting
+faster					a bit slower 
+Older version 			from 2
+
+TempData -> will exixt between teh method calls
+
+http://baseurl/<controllername>/<actionmethodname>/<parameter>
+
+http://baseurl/<route> - controller's action method(View will have teh same name as the action method)
+
+List Customer
+  ViewBag - HTML HElper
+  Model
+AddCustomer
+  HTML Helpertags for generating controls and forms
+
+
+ 
