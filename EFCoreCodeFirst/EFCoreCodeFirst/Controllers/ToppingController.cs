@@ -12,14 +12,17 @@ namespace EFCoreCodeFirst.Controllers
     public class ToppingController : Controller
     {
         private readonly IRepo<int, Topping> _repo;
+        private readonly ListPizzaService _service;
 
-        public ToppingController(IRepo<int,Topping> repo)
+        public ToppingController(IRepo<int,Topping> repo,ListPizzaService service)
         {
             _repo = repo;
+            _service = service;
         }
         // GET: ToppingController
         public ActionResult Index()
         {
+            _service.GetPizzAndToppings();
             return View(_repo.Get());
         }
 

@@ -43,3 +43,26 @@ Create the Scafolding Controller
 
 Work wioth SPs
 
+
+select * from Pizzas
+
+Create Procedure PizzaInsert(@pname varchar(50),@pprice float, @ppic varchar(100))
+as
+  Insert into Pizzas(Name,Price,pic) values(@pname,@pprice,@ppic)
+
+
+alter procedure proc_SelectPizzaNames
+as
+  select p.pid id, p.name PizzaName, p.Price Pizzaprice, t.Name ToppingName ,t.Price ToppingPrice
+  from Pizzas p join PizzaToppings pt on p.PID=pt.PizzaId join Toppings t on t.Id=pt.ToppingId
+
+
+
+  exec PizzaInsert 'Plain', 20, null
+
+  select * from Toppings
+
+  insert into PizzaToppings values(1,1)
+
+  exec proc_SelectPizzaNames
+

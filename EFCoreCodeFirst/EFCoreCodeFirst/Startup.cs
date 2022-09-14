@@ -31,6 +31,7 @@ namespace EFCoreCodeFirst
                 opts.UseSqlServer(Configuration.GetConnectionString("prodCon"));
             });
             services.AddScoped<IRepo<int, Topping>, ToppingRepo>();
+            services.AddScoped<ListPizzaService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -151,3 +151,13 @@ E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcor
 E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Jobs\Details.cshtml.g.cs
 E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Jobs\Edit.cshtml.g.cs
 E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Jobs\Index.cshtml.g.cs
+E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Publishers\Create.cshtml.g.cs
+E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Publishers\Delete.cshtml.g.cs
+E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Publishers\Details.cshtml.g.cs
+E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Publishers\Edit.cshtml.g.cs
+E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Publishers\Index.cshtml.g.cs
+E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Create.cshtml.g.cs
+E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Delete.cshtml.g.cs
+E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Details.cshtml.g.cs
+E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Edit.cshtml.g.cs
+E:\Corp\12Sep2022\UnderstandingEFDBFirst\UnderstandingEFDBFirst\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Index.cshtml.g.cs

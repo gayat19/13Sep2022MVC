@@ -151,3 +151,6 @@ E:\Corp\12Sep2022\EFCoreCodeFirst\EFCoreCodeFirst\obj\Debug\netcoreapp3.1\Razor\
 E:\Corp\12Sep2022\EFCoreCodeFirst\EFCoreCodeFirst\obj\Debug\netcoreapp3.1\Razor\Views\Topping\Create.cshtml.g.cs
 E:\Corp\12Sep2022\EFCoreCodeFirst\EFCoreCodeFirst\obj\Debug\netcoreapp3.1\Razor\Views\Topping\Edit.cshtml.g.cs
 E:\Corp\12Sep2022\EFCoreCodeFirst\EFCoreCodeFirst\obj\Debug\netcoreapp3.1\Razor\Views\Topping\Delete.cshtml.g.cs
+E:\Corp\12Sep2022\EFCoreCodeFirst\EFCoreCodeFirst\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MyLayout.cshtml.g.cs
+E:\Corp\12Sep2022\EFCoreCodeFirst\EFCoreCodeFirst\obj\Debug\netcoreapp3.1\Razor\Views\Home\MyPage.cshtml.g.cs
+E:\Corp\12Sep2022\EFCoreCodeFirst\EFCoreCodeFirst\obj\Debug\netcoreapp3.1\Razor\Views\SP\Index.cshtml.g.cs

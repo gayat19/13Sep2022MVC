@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "MyPage";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+<script src="~/scripts/MyValidation.js">
+
+</script>
+<script>
+    $(document).ready(function () {
+        $("#password").blur(function () {
+            var pass = $(this).val();
+            console.log(this)
+            if (pass == "")
+                alert("Password cannot be empty");
+        })
+    })
+</script>
+@section Section1{
+    This is in section1
+}
+<h1>MyPage</h1>
+<input type="text" id="username" onblur="checkName()" />
+
+<input type="password" id="password" />
+@section Section2{
+    Check this for section2
+}
+

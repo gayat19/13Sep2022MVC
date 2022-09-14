@@ -1,0 +1,25 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_MyLayout</title>
+    <link href="~/css/MySheet.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+</head>
+<body>
+    <div id="div1">
+        <h1>This is my layout page</h1>
+        <h2>@RenderSection("Section1")</h2>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+        <hr />
+        <h2>@RenderSection("Section2")</h2>
+        <hr />
+    </div>
+</body>
+</html>
