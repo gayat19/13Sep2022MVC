@@ -1,0 +1,45 @@
+EF Core
+  Code First 
+  Database First
+
+Database Tables -> Classes
+         Rows -> Object Collection
+
+EF Core -> ORM
+
+ADO.NET(Disconnected arch)
+  Connection
+  Data Adapter
+  Command
+     Data Reader 
+     Data Set
+
+
+EF Code first
+Topping
+  Id
+  Name
+  Price
+
+Pizza
+  Id
+  Name
+  Price
+  Pic
+
+PizzaTopping
+   PizzaId
+   ToppingID
+
+
+Connection string is hardcoded??
+
+Create a service to do dthe CRUD
+Inject the service
+Take the service injection in Controller
+Generate teh views
+
+Create the Scafolding Controller
+
+Work wioth SPs
+
