@@ -63,6 +63,8 @@ namespace EFCoreCodeFirst.Controllers
         // GET: ToppingController/Edit/5
         public ActionResult Edit(int id)
         {
+            int numm = 0;
+            int res = 100 / numm;
             var topping = _repo.GetByKey(id);
             return View(topping);
         }

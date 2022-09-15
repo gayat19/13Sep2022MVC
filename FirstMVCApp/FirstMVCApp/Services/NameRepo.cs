@@ -13,7 +13,7 @@ namespace FirstMVCApp.Services
             names.Add(name);
         }
 
-        public List<string> Get()
+        public virtual List<string> Get()
         {
             return names;
         }

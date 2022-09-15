@@ -1,0 +1,21 @@
+﻿$mycolo : red;
+
+@mixin myText($type) {
+    font-family: 'Monotype Corsiva';
+    font-size: large;
+
+    @if($type==user) {
+        background-color: pink;
+    }
+    @else if($type==admin) {
+        background-color: blue;
+    }
+}
+.myBox{
+    @include myText(admin);
+    color:$mycolo;
+}
+
+.txtBox{
+    color:$mycolo;
+}

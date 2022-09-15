@@ -1,5 +1,6 @@
 ﻿using EFCoreCodeFirst.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,25 +12,27 @@ namespace EFCoreCodeFirst.Services
     public class ToppingRepo : IRepo<int, Topping>
     {
         private readonly PizzaStoreContext _context;
+        private readonly ILogger<ToppingRepo> _logger;
 
-        public ToppingRepo(PizzaStoreContext context)
+        public ToppingRepo(PizzaStoreContext context,ILogger<ToppingRepo> logger)
         {
             _context = context;
+            _logger = logger;
         }
         public Topping Add(Topping item)
         {
             try
             {
-                Debug.WriteLine(_context.Entry(item).State);
+                _logger.LogInformation(_context.Entry(item).State.ToString());
                 _context.Toppings.Add(item);
-                Debug.WriteLine(_context.Entry(item).State);
+                _logger.LogInformation(_context.Entry(item).State.ToString());
                 _context.SaveChanges();
-                Debug.WriteLine(_context.Entry(item).State);
+                _logger.LogInformation(_context.Entry(item).State.ToString());
                 return item;
             }
             catch (Exception e)
             {
-                Debug.WriteLine(e.Message);
+                _logger.LogError(e.Message);
             }
             return null;
         }

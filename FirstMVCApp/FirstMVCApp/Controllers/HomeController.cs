@@ -12,20 +12,20 @@ namespace FirstMVCApp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+       // private readonly ILogger<HomeController> _logger;
         private readonly SampleService _service;
         private readonly IRepo _repo;
 
-        public HomeController(ILogger<HomeController> logger,SampleService service,IRepo repo)
+        public HomeController(IRepo repo)
         {
-            _logger = logger;
-            _service = service;
+            //_logger = logger;
+            //_service = service;
             _repo = repo;
         }
         [LogCallActionFilter]
         public IActionResult Index()
         {
-            _logger.LogInformation("In the index method");
+            //_logger.LogInformation("In the index method");
             return View();
         }
         public List<string> Check()
@@ -37,14 +37,14 @@ namespace FirstMVCApp.Controllers
             _repo.Add(name);
             return name;
         }
-        public IActionResult CheckView()
-        {
-            Sample sample = new Sample() { 
-                Id=101,Name="Jim"
-            };
+        //public IActionResult CheckView()
+        //{
+        //    Sample sample = new Sample() { 
+        //        Id=101,Name="Jim"
+        //    };
             
-            return View(sample);
-        }
+        //    return View(sample);
+        //}
         public IActionResult Privacy()
         {
             return View();

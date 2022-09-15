@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hFNU6nxG9ziPA5m5PILrISuRs7x4N+UwFoDhQ6VloxZv6W4jvZ2oJIq0COqQN9vH1NqLZmBfYY9kjkDqq6ypEg==",
+  "success": true,
+  "projectFilePath": "E:\\Corp\\12Sep2022\\StyleApplication\\StyleApplication\\StyleApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512"
+  ],
+  "logs": []
+}

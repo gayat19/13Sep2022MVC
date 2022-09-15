@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fv+AbpOFQjc7NfMa4kQVNJ1Z0KlFWOGl6HfxQmhJPtA7yr4lyAmcpmO70NaSEzB/LkWuqv3GtyG4BR5Kkb4PHg==",
+  "dgSpecHash": "xS2+NUBRwixE5Lwj5yoZmRfyx9JE81fDfc9mawWs8c/dXtWLWh3qdS5KxWOC6S6KXmrK9h7+39w8ZgeU7HitJw==",
   "success": true,
   "projectFilePath": "E:\\Corp\\12Sep2022\\UnderstandingEFDBFirst\\UnderstandingEFDBFirst\\UnderstandingEFDBFirst.csproj",
   "expectedPackageFiles": [
@@ -162,7 +162,8 @@
     "C:\\Users\\gayat\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\gayat\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\gayat\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512"
   ],
   "logs": []
 }

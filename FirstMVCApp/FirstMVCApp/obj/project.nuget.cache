@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7u0+UacLIk1xatUl7V93hlvJMhywrRYxZyCqszFLU7RMMlx7RiJdu4hU7Fgmqr7/0VLSFu9VuzbrF8azWQg5UA==",
+  "dgSpecHash": "AN1AaO7AbQpDDzvr8cCV39adh/vMVRF+V4b8fWnMXMKrkWE2Uyu6mpV5nYUV6z6g8EmI0y1sNAlRG72KgmbxOw==",
   "success": true,
   "projectFilePath": "E:\\Corp\\12Sep2022\\FirstMVCApp\\FirstMVCApp\\FirstMVCApp.csproj",
   "expectedPackageFiles": [
@@ -110,7 +110,8 @@
     "C:\\Users\\gayat\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\gayat\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\gayat\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\gayat\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512"
   ],
   "logs": []
 }
